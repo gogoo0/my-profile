@@ -1,0 +1,89 @@
+	.container {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	
+	@media (max-width:961px)  {
+		/* tablet, landscape iPad, lo-res laptops ands deskt */
+		.container {
+			width: 500px
+		}
+	}
+
+	@media (max-width:400px)  {
+		/* smartphones, iPhone, portrait 480x320 phones */
+		.container {
+			width: 350px;
+		} 
+
+	}
+
+
+
+	h1 {
+		font-size: 42px;
+		margin-top: 0;
+		color: #E384FF;
+	}
+
+
+	body {
+		background-color: #C7E8CA;
+		font-family: 'Libre Baskerville', serif;
+	}
+
+
+	h1, h2, h3 {
+		font-family: 'DM Sans', sans-serif;
+	}
+
+	h2 {
+		color: blue;
+		margin-bottom: 6px;
+		font-weight: 100;
+		margin-top:  0;
+
+	}
+	.card {
+		background-color: white;
+		padding: 20px;
+		margin-bottom: 30px;
+		border-radius: 12px;
+		text-align:  center;
+	}
+	p {
+		margin 0;
+	}
+	a {
+		text-decoration: none;
+		color: #B2A4FF;
+		font-weight: 900;
+	}
+
+	img {
+		height: 150px;
+		margin-bottom: 24px;
+		border-radius: 8px;
+	}
+
+	first-card-p {
+		margin-bottom: 12px;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
